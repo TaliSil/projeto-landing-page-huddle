@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    background-color: var(--violet);
+    background-image: url(../images/bg-desktop.svg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    padding: 2% 8% 3% ;
+}
+
+.conteudo{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 7%;
+    column-gap: 5%;
+    
+}
+
+.conteudo .textos{
+    width: 40%;
+    height: 50%;
+}
+
+.conteudo .textos .titulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.conteudo .textos .descricao{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.6rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.conteudo .textos button{
+    background-color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 13px 13px 16px -6px rgba(0,0,0,0.45);
+    color: var(--violet);
+}
+
+.conteudo .textos button:hover{
+    background-color: var(--soft-magenta);
+    color: white;
+}
+
+footer {
+font-size: 3.0rem;
+color:white;
+display: flex;
+justify-content: flex-end;
+margin-top: 10%;
+margin-right: 10%;
+}
+
+i{
+    padding: 10px;
+}
+
+i:hover{
+    color: var(--soft-magenta);
+}
